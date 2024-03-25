@@ -1,0 +1,41 @@
+.ruta-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gris-oscuro);
+  color: var(--naranja-claro);
+  width: 100%;
+
+  padding: 3px;
+}
+.card-ruta {
+  display: flex;
+
+  width: 100%;
+  font-size: 1rem;
+}
+.titulo-ruta {
+  background-color: var(--gris-oscuro);
+  color: var(--naranja-claro);
+  text-align: center;
+}
+.datos-ruta {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  word-wrap: break-word;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.boton-add-cliente {
+  background-image: url("/iconos/add_user.ico");
+}
+.boton-card-ruta {
+  border: 3px solid gray;
+}
+.rutas-container {
+  background-color: var(--gris-oscuro);
+  padding-left: 3px;
+}

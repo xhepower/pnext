@@ -1,0 +1,41 @@
+.pago-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: 1px dashed black;
+  padding: 3px;
+}
+.card-pago {
+  display: flex;
+
+  width: 100%;
+  font-size: 1rem;
+}
+.titulo-pago {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.datos-pago {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  word-wrap: break-word;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.boton-add-pago {
+  background-image: url("/iconos/icopago.ico");
+}
+.boton-card-pago {
+  border: 3px solid gray;
+}
+.pagos-container {
+  background-color: white;
+  padding-left: 6px;
+}

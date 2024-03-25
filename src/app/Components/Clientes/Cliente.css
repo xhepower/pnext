@@ -1,0 +1,41 @@
+.cliente-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gris-medio);
+  color: var(--naranja);
+  width: 100%;
+  border: 1px dashed var(--naranja);
+  padding: 3px;
+}
+.card-cliente {
+  display: flex;
+
+  width: 100%;
+  font-size: 1rem;
+}
+.titulo-cliente {
+  background-color: var(--gris-medio);
+  color: var(--naranja);
+  text-align: center;
+}
+.datos-cliente {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  word-wrap: break-word;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.boton-add-prestamo {
+  background-image: url("/iconos/prestamo.ico");
+}
+.boton-card-cliente {
+  border: 3px solid gray;
+}
+.clientes-container {
+  background-color: var(--gris-medio);
+  padding-left: 6px;
+}

@@ -1,0 +1,41 @@
+.prestamo-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gris-claro);
+  color: var(--naranja);
+  width: 100%;
+  border: 1px dashed var(--naranja);
+  padding: 3px;
+}
+.card-prestamo {
+  display: flex;
+
+  width: 100%;
+  font-size: 1rem;
+}
+.titulo-prestamo {
+  background-color: var(--gris-claro);
+  color: var(--naranja);
+  text-align: center;
+}
+.datos-prestamo {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  word-wrap: break-word;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.boton-add-pago {
+  background-image: url("/iconos/icopago.ico");
+}
+.boton-card-prestamo {
+  border: 3px solid gray;
+}
+.prestamos-container {
+  background-color: var(--gris-claro);
+  padding-left: 9px;
+}
